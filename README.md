@@ -2,10 +2,12 @@
 
 Build a single-page web app that allows users to draw pixel art on a customizable canvas.
 
-## Table of Contents
+## Languages & Libraries
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
 
 ## Author
 

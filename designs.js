@@ -8,9 +8,6 @@ let color = "#000";
 
 function makeGrid() {
 const table = document.getElementById("pixel_canvas");
-// table.innerHTML = "";
-//   while(table.rows.length > 0)
-//     table.deleteRow(0);
 /* assign row to input_height */
 row = document.getElementById("input_height").value;
 /* assign col to input_width */

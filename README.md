@@ -10,7 +10,7 @@ A single-page web app that allows users to draw pixel art on a customizable canv
 
 ## View
 
-<a href="#">Pixel Art Maker</a>
+<a href="http://pixel-art-maker.bitballoon.com/">Pixel Art Maker</a>
 
 ## Author
 

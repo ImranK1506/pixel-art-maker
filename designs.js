@@ -1,21 +1,24 @@
-// Select color input
-// Select size input
-
-// When size is submitted by the user, call makeGrid()
+// global variables to set row and col size
 let row;
 let col;
-let color = "#000";
 
+/**
+* @description Draw a grid based on user input
+*/
 function makeGrid() {
-const table = document.getElementById("pixel_canvas");
-/* assign row to input_height */
-row = document.getElementById("input_height").value;
-/* assign col to input_width */
-col = document.getElementById("input_width").value;
-/* create row and col */
-for (let r = 0; r < row; r++) {
-  const elt = table.insertRow(r);
-  elt.setAttribute("class", "rows");
+  const table = document.getElementById("pixel_canvas");
+  // clear previous grid
+  table.innerHTML = "";
+  while (table.rows.length > 0)
+    table.deleteRow(0);
+  /* assign row to input_height */
+  row = document.getElementById("input_height").value;
+  /* assign col to input_width */
+  col = document.getElementById("input_width").value;
+  /* create row and col */
+  for (let r = 0; r < row; r++) {
+    const elt = table.insertRow(r);
+    elt.setAttribute("class", "rows");
     for (let c = 0; c < col; c++) {
       const cell = elt.insertCell(c);
       /* add color to selected cell */
